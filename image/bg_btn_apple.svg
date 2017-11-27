@@ -1,0 +1,47 @@
+<svg id="apple.png_2x" data-name="apple.png+@2x" xmlns="http://www.w3.org/2000/svg" width="130" height="40"
+     viewBox="0 0 130 40">
+    <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+        <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <rdf:Description rdf:about=""/>
+            </rdf:RDF>
+        </x:xmpmeta>
+
+
+        <?xpacket end="w"?>
+    </metadata>
+    <defs>
+        <style>
+            .cls-1 {
+            fill: #050708;
+            }
+
+            .cls-2 {
+            font-size: 10px;
+            font-family: "Myriad Pro";
+            }
+
+            .cls-2, .cls-4 {
+            fill: #fff;
+            }
+
+            .cls-3 {
+            font-size: 18px;
+            font-weight: 600;
+            }
+
+            .cls-4 {
+            fill-rule: evenodd;
+            }
+        </style>
+    </defs>
+    <rect id="background" class="cls-1" width="130" height="40" rx="4" ry="4"/>
+    <g id="download_on_the_app_store" data-name="download on the app store">
+        <text id="Download_on_the_App_Store-2" data-name="Download on the App Store" class="cls-2" x="38.667"
+              y="13.667">Download on the
+            <tspan class="cls-3" x="38.667" dy="21.6">App Store</tspan>
+        </text>
+    </g>
+    <path id="icon" class="cls-4"
+          d="M24.1,12.233c2.859,0,4.688,2.742,4.688,2.742A5.663,5.663,0,0,0,26,19.733a5.287,5.287,0,0,0,3.5,4.992s-2.766,6.5-5.871,6.5c-1.746,0-1.863-1-4.184-1-2.016,0-2.7,1-4.23,1-2.93,0-6.715-6.34-6.715-11.5,0-5.356,3.832-7.5,6.234-7.5,2.109,0,2.988,1.23,4.688,1.23C20.852,13.463,21.977,12.233,24.1,12.233ZM23.606,6.772c0.422,2.625-1.98,5.871-4.852,5.766C18.332,9.2,21.426,6.947,23.606,6.772Z"/>
+</svg>
