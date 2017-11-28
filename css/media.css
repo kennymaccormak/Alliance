@@ -37,6 +37,7 @@
     html, body {
         overflow: visible !important;
     }
+
     .header-mobile {
         position: absolute;
     }
@@ -117,7 +118,7 @@
 
     .title-block-title,
     .title-block-info,
-    .title-block-buttons  {
+    .title-block-buttons {
         text-align: center;
     }
 
@@ -135,6 +136,7 @@
     .title-block-content {
         top: 15px;
     }
+
     .title-block {
         height: 345px;
     }
