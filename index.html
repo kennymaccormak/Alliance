@@ -12,8 +12,82 @@
     <link rel="stylesheet" href="lib/slick/slick-theme.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+<header class="header-mobile">
+    <div class="header-mobile-controls clearfix">
+        <div class="header-mobile-buttons">
+            <button class="header-mobile__button button button--menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="header-mobile-culture culture">
+            <ul class="culture-list">
+                <li class="culture-list__item active"><a class="culture-item--link" href="#">ru</a></li>
+                <li class="culture-list__item"><a class="culture-item--link" href="#">ua</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-mobile__logo logo">
+        <a href="#"><img src="image/logo.png" alt="logo" class="logo-img"></a>
+    </div>
+    <div class="header-mobile-layout"></div>
+    <div class="header-mobile-nav">
+        <div class="mobile-nav-head">
+            <button class="button mobile-nav__button button--back">назад</button>
+        </div>
+        <div class="mobile-nav-body">
+            <ul class="mobile-nav-list">
+                <li class="mobile-nav-list__item mobile-list-item">
+                    <a href="#" class="mobile-list-item--link">Главная</a>
+                </li>
+                <li class="mobile-nav-list__item mobile-list-item mobile-list-item--drd active">
+                    <a href="#" class="mobile-list-item--link">Про проект</a>
+                    <ul class="mobile-nav-list sub-menu">
+                        <li class="mobile-nav-list__item mobile-list-item">
+                            <a href="#" class="mobile-list-item--link">Пункт меню 1</a>
+                        </li>
+                        <li class="mobile-nav-list__item mobile-list-item">
+                            <a href="#" class="mobile-list-item--link">Пункт меню 2</a>
+                        </li>
+                        <li class="mobile-nav-list__item mobile-list-item">
+                            <a href="#" class="mobile-list-item--link">Пункт меню 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-nav-list__item mobile-list-item mobile-list-item--drd">
+                    <a href="#" class="mobile-list-item--link">Скачать приложение</a>
+                    <ul class="mobile-nav-list sub-menu">
+                        <li class="mobile-nav-list__item mobile-list-item">
+                            <a href="#" class="mobile-list-item--link">Пункт меню 1</a>
+                        </li>
+                        <li class="mobile-nav-list__item mobile-list-item">
+                            <a href="#" class="mobile-list-item--link">Пункт меню 2</a>
+                        </li>
+                        <li class="mobile-nav-list__item mobile-list-item">
+                            <a href="#" class="mobile-list-item--link">Пункт меню 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-nav-list__item mobile-list-item">
+                    <a href="#" class="mobile-list-item--link">Контакты</a>
+                </li>
+                <li class="mobile-nav-list__item mobile-list-item">
+                    <a href="#" class="mobile-list-item--link">Видео</a>
+                </li>
+                <li class="mobile-nav-list__item mobile-list-item">
+                    <a href="#" class="mobile-list-item--link">Карта</a>
+                </li>
+                <li class="mobile-nav-list__item mobile-list-item list-item--red">
+                    <a href="#" class="mobile-list-item--link">Материалы</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
 <header class="header">
     <div class="container">
         <div class="row">
@@ -21,7 +95,7 @@
                 <a href="#"><img src="image/logo.png" alt="logo" class="logo-img"></a>
             </div>
             <div class="col-md-8 header__nav nav">
-                <ul class="nav-list main-menu clearfix">
+                <ul class="nav-list clearfix">
                     <li class="nav-list__item list-item active">
                         <a class="list-item--link" href="#">Главная</a>
                     </li>

@@ -1,0 +1,17 @@
+@media screen and (max-width: 991px) {
+    .header {
+        display: none;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+
+    .title-block {
+        padding-top: 145px;
+    }
+
+    .bg-slider {
+        top: 145px;
+    }
+}
