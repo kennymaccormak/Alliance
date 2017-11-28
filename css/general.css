@@ -240,10 +240,20 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
     width: 78%;
+    height: 100vh;
+    overflow-y: auto;
     z-index: 3500;
 }
+
+/* хром, сафари */
+.header-mobile-nav::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+.header-mobile-nav { -ms-overflow-style: none; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.header-mobile-nav { overflow: -moz-scrollbars-none; }
 
 .mobile-nav-head {
     border-bottom: 1px solid #609d84;
