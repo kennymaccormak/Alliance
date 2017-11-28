@@ -1,6 +1,7 @@
 /* Global Variables */
-var al = null;
-var empty = "";
+var al = null,
+    empty = ""
+;
 
 function initialize() {
     al = new Alliance.General();
@@ -27,6 +28,8 @@ Alliance.General.prototype = {
         var $menu = $(".header-mobile-nav"),
             $layout = $(".header-mobile-layout")
         ;
+
+        $("html, body").css({"overflow": "hidden"});
         $layout.fadeIn(300);
         $menu.animate({
             "left": 0
@@ -36,6 +39,8 @@ Alliance.General.prototype = {
         var $menu = $(".header-mobile-nav"),
             $layout = $(".header-mobile-layout")
         ;
+
+        $("html, body").css({"overflow": "visible"});
         $layout.fadeOut(300);
         $menu.animate({
             "left": -78 + "%"

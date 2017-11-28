@@ -556,6 +556,16 @@ ul {
     display: inline-block;
     width: 34px;
     height: 34px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.culture-item--link:hover {
+    background: #388465;
+    color: #ffffff;
 }
 
 /*end header*/
