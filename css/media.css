@@ -33,16 +33,6 @@
     }
 }
 
-@media screen and (max-height: 520px) {
-/*    .header-mobile {
-        position: absolute;
-    }*/
-
-/*    .header-mobile-nav {
-        height: 520px;
-    }*/
-}
-
 @media screen and (max-width: 1460px) {
     .bg-slider {
         margin-left: -620px;
