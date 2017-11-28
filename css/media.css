@@ -26,10 +26,10 @@
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 992px) {
     html,
     body {
-        font-size: 10px;
+        font-size: 14px;
     }
 }
 
@@ -122,12 +122,12 @@
     }
 
     .title-block {
-        height: 495px;
+        height: 545px;
     }
 
     .bg-slider-layout,
     .bg-slider-item {
-        height: 350px;
+        height: 400px;
     }
 }
 
@@ -136,12 +136,12 @@
         top: 15px;
     }
     .title-block {
-        height: 285px;
+        height: 345px;
     }
 
     .bg-slider-layout,
     .bg-slider-item {
-        height: 140px;
+        height: 200px;
     }
 
     .title-block-info {
@@ -172,12 +172,12 @@
 
 @media screen and (max-width: 330px) {
     .title-block {
-        height: 345px;
+        height: 405px;
     }
 
     .bg-slider-layout,
     .bg-slider-item {
-        height: 200px;
+        height: 260px;
     }
 
     .download-button:first-child {
