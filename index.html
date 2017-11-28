@@ -18,7 +18,7 @@
 <header class="header-mobile">
     <div class="header-mobile-controls clearfix">
         <div class="header-mobile-buttons">
-            <button class="header-mobile__button button button--menu">
+            <button type="button" id="showMobMenuBtn" class="header-mobile__button button button--menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -37,15 +37,15 @@
     <div class="header-mobile-layout"></div>
     <div class="header-mobile-nav">
         <div class="mobile-nav-head">
-            <button class="button mobile-nav__button button--back">назад</button>
+            <button type="button" id="closeMobMenuBtn" class="button mobile-nav__button button--back">назад</button>
         </div>
         <div class="mobile-nav-body">
             <ul class="mobile-nav-list">
                 <li class="mobile-nav-list__item mobile-list-item">
                     <a href="#" class="mobile-list-item--link">Главная</a>
                 </li>
-                <li class="mobile-nav-list__item mobile-list-item mobile-list-item--drd active">
-                    <a href="#" class="mobile-list-item--link">Про проект</a>
+                <li class="mobile-nav-list__item mobile-list-item mobile-list-item--drd">
+                    <a href="#" class="mobile-list-item--link mobile-list-item--open">Про проект</a>
                     <ul class="mobile-nav-list sub-menu">
                         <li class="mobile-nav-list__item mobile-list-item">
                             <a href="#" class="mobile-list-item--link">Пункт меню 1</a>
@@ -59,7 +59,7 @@
                     </ul>
                 </li>
                 <li class="mobile-nav-list__item mobile-list-item mobile-list-item--drd">
-                    <a href="#" class="mobile-list-item--link">Скачать приложение</a>
+                    <a href="#" class="mobile-list-item--link mobile-list-item--open">Скачать приложение</a>
                     <ul class="mobile-nav-list sub-menu">
                         <li class="mobile-nav-list__item mobile-list-item">
                             <a href="#" class="mobile-list-item--link">Пункт меню 1</a>
@@ -165,19 +165,19 @@
 
     <div class="title-block-content container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
                 <h1 class="title-block-title">Уроки снижения риска</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
                 <p class="title-block-info">
                     Уроки снижения риска» — это цикл из 22 уроков, которые предназначены для базовой подготовки социальных работников и работниц МСМ- и СР-сервисных организаций. Данные уроки разработаны Альянсом общественного здоровья в рамках программы «Инвестиции ради влияния на эпидемии туберкулеза и ВИЧ-инфекции», при поддержке Глобального фонда для борьбы со СПИДом,
                 </p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 title-block-buttons">
+            <div class="col-md-6 col-sm-6 title-block-buttons">
                 <button type="button" class="button download-button download-button--android">
                     <a class="download-button--link" href="#">
                         <svg id="google.png_2x" data-name="google.png+@2x" xmlns="http://www.w3.org/2000/svg"
@@ -345,13 +345,13 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-12 col-xs-12">
                 <div class="footer__logo logo">
                     <img class="logo-img" src="image/logo_inverse.png" alt="footer logo">
                 </div>
                 <address class="copyright">&copy; 2015—2017,<span>Alliance for Public Health</span></address>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-9 visible-md visible-lg">
                 <div class="footer__nav">
                     <ul class="nav-list">
                         <li class="nav-list__item list-item">
