@@ -49,6 +49,26 @@
 }
 
 @media screen and (max-width: 991px) {
+
+    .form-field__label,
+    .form-field__input {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .radio-label:before{
+        top: 0;
+    }
+
+    .radio-label:after {
+        top: 4px;
+    }
+
+    .button--positive {
+        letter-spacing: 1px;
+    }
+
     .header {
         display: none;
     }
@@ -119,6 +139,14 @@
 }
 
 @media screen and (max-width: 460px) {
+    .form-container {
+        padding: 0;
+    }
+
+    .form .form-field__buttons {
+        text-align: center;
+    }
+
     .title-block-content {
         top: 15px;
     }
@@ -144,6 +172,12 @@
         padding: 0;
     }
 
+    .regular-page {
+        padding-top: 180px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .article {
         background-size: 36px 46px;
         padding: 10px 15px 10px 55px;
@@ -159,6 +193,10 @@
 }
 
 @media screen and (max-width: 330px) {
+    .button--positive {
+        padding: 0 20px;
+    }
+
     .title-block {
         height: 405px;
     }
